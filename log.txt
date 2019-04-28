@@ -1,0 +1,75 @@
+
+English: He is talking
+Urdu: وہ بات کر رہا ہے
+[('He', 'PRP'), ('is', 'VBZ'), ('talking', 'VBG')]
+[{'p': 'PRP', 'w': 'وہ'},
+ {'p': 'NN', 'w': 'بات'},
+ {'p': 'VBF', 'w': 'کر'},
+ {'p': 'AUXP', 'w': 'رہا'},
+ {'p': 'AUXT', 'w': 'ہے'}]
+################
+
+English: She is talking
+Urdu: وہ بات کر رہی ہے
+[('She', 'PRP'), ('is', 'VBZ'), ('talking', 'VBG')]
+[{'p': 'PRP', 'w': 'وہ'},
+ {'p': 'NN', 'w': 'بات'},
+ {'p': 'VBF', 'w': 'کر'},
+ {'p': 'AUXP', 'w': 'رہی'},
+ {'p': 'AUXT', 'w': 'ہے'}]
+################
+
+English: He eats
+Urdu: وہ کھاتا ہے
+[('He', 'PRP'),
+ ('eats', 'VBZ')]
+[{'p': 'PRP', 'w': 'وہ'},
+ {'p': 'VBF', 'w': 'کھاتا'},
+ {'p': 'AUXT', 'w': 'ہے'}]
+################
+
+English: Ali talks to Amna about Fatima
+Urdu: علی فاطمہ کے بارے میں امنا سے بات کرتے ہیں
+[('Ali', 'NNP'),
+ ('talks', 'NNS'),
+ ('to', 'TO'),
+ ('Amna', 'VB'),
+ ('about', 'IN'),
+ ('Fatima', 'NNP')]
+[{'p': 'NNP', 'w': 'علی'},
+ {'p': 'NNP', 'w': 'فاطمہ'},
+ {'p': 'PSP', 'w': 'کے'},
+ {'p': 'PSP', 'w': 'بارے'},
+ {'p': 'PSP', 'w': 'میں'},
+ {'p': 'NN', 'w': 'امنا'},
+ {'p': 'PSP', 'w': 'سے'},
+ {'p': 'NN', 'w': 'بات'},
+ {'p': 'VBF', 'w': 'کرتے'},
+ {'p': 'AUXT', 'w': 'ہیں'}]
+################
+
+English: I am walking with Fatima
+Urdu: میں فاطمہ سے چل رہا ہوں
+[('I', 'PRP'),
+ ('am', 'VBP'),
+ ('walking', 'VBG'),
+ ('with', 'IN'),
+ ('Fatima', 'NNP')]
+[{'p': 'PRP', 'w': 'میں'},
+ {'p': 'NNP', 'w': 'فاطمہ'},
+ {'p': 'PSP', 'w': 'سے'},
+ {'p': 'VBF', 'w': 'چل'},
+ {'p': 'AUXP', 'w': 'رہا'},
+ {'p': 'AUXT', 'w': 'ہوں'}]
+################
+
+English: Amna will walk.
+Urdu: آمنا چل جائے گا.
+[('Amna', 'NNP'), ('will', 'MD'), ('walk', 'VB')]
+[{'p': 'NN', 'w': 'آمنا'},
+{'p': 'VBF', 'w': 'چل'},
+{'p': 'AUXA', 'w': 'جائے'},
+{'p': 'NN', 'w': 'گا.'}]
+ آمنا چل جائے گا.
+
+###################################
